@@ -12,61 +12,80 @@
 </head>
 <body>
     <section class="container">
-        <div class="form-section">
-            <div class="col-md-3 mb-3 amount">
-                <label for="validationCustom04">Amount</label>
-                <select class="custom-select" id="validationCustom04" required>
-                  <option selected disabled value="">Please Select</option>
-                  <option value="amount">  50,000.00</option>
-                  <option value="amount">  100,000.00</option>
-                  <option value="amount">  150,000.00</option>
-                  <option value="amount">  200,000.00</option>
-                  <option value="amount">  250,000.00</option>
-                </select>
-                <div class="invalid-feedback">
-                  Please select a valid state.
-                </div>
+     <form>
+      <div class="form-section">
+        <h1 class="form-header">Calculate Interest</h1>
+        <p class="form-para">Enter an amount and duration to find out your interest</p>
+          <div class="col-md-3 mb-3 amount">
+              <label for="validationCustom04">Deposit Amount</label>
+              <select class="custom-select" id="validationCustom04" required>
+                <option selected disabled value="">Enter amount (e.g 10,000)</option>
+                <option  class="amount" value="amount">  50,000.00</option>
+                <option class="amount" value="amount">  100,000.00</option>
+                <option class="amount" value="amount">  150,000.00</option>
+                <option class="amount" value="amount">  200,000.00</option>
+                <option class="amount" value="amount">  250,000.00</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
               </div>
+            </div>
+
+              <div class="col-md-3 mb-3 amount">
+                  <label for="validationCustom04">Duration</label>
+                  <select class="custom-select" id="validationCustom04" required>
+                    <option selected disabled value="">Select duration</option>
+                    <option class="amount" value="amount">Piggybank (No duration)</option>
+                    <option class="amount" value="amount">Flex naira (No duration)</option>
+                    <option class="amount" value="amount">Safelock (Min 10days and Max 2years)</option>
+                    <option class="amount" value="amount">Target (Any Duration)</option>
+                    <option class="amount" value="amount">Flex dollar (No duration)</option>
+                    <option class="amount" value="amount">Investify (Min 4months)</option>
+
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid state.
+                  </div>
+                </div>
 
                 <div class="col-md-3 mb-3 amount">
-                    <label for="validationCustom04">Savings Plan</label>
-                    <select class="custom-select" id="validationCustom04" required>
-                      <option selected disabled value="">Please Select</option>
-                      <option value="amount"> Piggybank</option>
-                      <option value="amount"> Piggyban</option>
-                      <option value="amount"> Piggyban</option>
-                      <option value="amount">  Piggyban</option>
-                      <option value="amount"> Piggyban</option>
-                    </select>
-                    <div class="invalid-feedback">
-                      Please select a valid state.
-                    </div>
+                  <label for="validationCustom04">Interest Rate</label>
+                  <select class="custom-select" id="validationCustom04" required>
+                    <option class="amount" selected disabled value="">Select interest</option>
+                    <option class="amount" value="amount">5%</option>
+                    <option class="amount" value="amount">10%</option>
+                    <option class="amount" value="amount">15%</option>
+                    <option class="amount" value="amount">20%</option>
+                    <option class="amount" value="amount">25%</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid state.
                   </div>
-
-  <div class="date-section">
-    <div class="form-group row">
-  
-        <div class="col-md-3 mb-3 right">
-        <label for="example-datetime-local-input" class="col-2 col-form-label">From:</label>
-          <input class="form-control" type="datetime-local" value="" id="example-datetime-local-input">
-        </div>
-        
-        </div>
+                </div>
     
-        <div class="form-group row">
-            <div class="col-md-3 mb-3 left">
-            <label for="example-datetime-local-input" class="col-2 col-form-label">To:</label>
-              <input class="form-control" type="datetime-local" value="" id="example-datetime-local-input">
-            </div>
-        </div>
+                  <div class="col-md-3 mb-3 amount">
+                      <label for="validationCustom04">Savings Type</label>
+                      <select class="custom-select" id="validationCustom04" required>
+                        <option selected disabled value="">Please Select</option>
+                        <option value="amount"> Piggybank</option>
+                        <option value="amount">Flex naira</option>
+                        <option value="amount">Safelock</option>
+                        <option value="amount">Target</option>
+                        <option value="amount">Flex dollar</option>
+                        <option value="amount">Investify</option>
 
-  </div>
- 
-  <button class="btn btn-primary" type="submit">Calculate Interest</button>
-</form>
-<script src="../js/payment.js"></script>
-        </div>
-        
+                      </select>
+                      <div class="invalid-feedback">
+                        Please select a valid state.
+                      </div>
+                    </div>
+    
+
+                <div>
+                  <button class="btn btn-primary" type="submit">Calculate Interest</button>
+                </div>
+      </div>
+     </form>
     </section>
     
 </body>
