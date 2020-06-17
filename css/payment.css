@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    font-family: 'Karla', 'Poppins',  sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+
+.form-section {
+    margin-top: 200px;
+    background-color: #062863;
+    padding: 40px;
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 20px;
+
+}
+
+.col-md-3 {
+    max-width: 100%;
+}
+
+.date-section {
+    display: flex;
+    max-width: 100%;
+}
+
+.right {
+    margin-left: 15px;
+}
+
+.btn {
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    border: none;
+    width: 50%;
+    margin: 0 25%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: #0b3d94;
+    border: none;
+    outline: none;
+
+}
+
+.left {
+    margin-left: 50px;
+}

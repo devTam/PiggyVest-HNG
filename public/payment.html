@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href ="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Poppins:ital,wght@0,300;0,600;1,500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="../css/payment.css">
+    <title>PiggyVest Interest Calculator</title>
+</head>
+<body>
+    <section class="container">
+        <div class="form-section">
+            <div class="col-md-3 mb-3 amount">
+                <label for="validationCustom04">Amount</label>
+                <select class="custom-select" id="validationCustom04" required>
+                  <option selected disabled value="">Please Select</option>
+                  <option value="amount">  50,000.00</option>
+                  <option value="amount">  100,000.00</option>
+                  <option value="amount">  150,000.00</option>
+                  <option value="amount">  200,000.00</option>
+                  <option value="amount">  250,000.00</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid state.
+                </div>
+              </div>
+
+                <div class="col-md-3 mb-3 amount">
+                    <label for="validationCustom04">Savings Plan</label>
+                    <select class="custom-select" id="validationCustom04" required>
+                      <option selected disabled value="">Please Select</option>
+                      <option value="amount"> Piggybank</option>
+                      <option value="amount"> Piggyban</option>
+                      <option value="amount"> Piggyban</option>
+                      <option value="amount">  Piggyban</option>
+                      <option value="amount"> Piggyban</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a valid state.
+                    </div>
+                  </div>
+
+  <div class="date-section">
+    <div class="form-group row">
+  
+        <div class="col-md-3 mb-3 right">
+        <label for="example-datetime-local-input" class="col-2 col-form-label">From:</label>
+          <input class="form-control" type="datetime-local" value="" id="example-datetime-local-input">
+        </div>
+        
+        </div>
+    
+        <div class="form-group row">
+            <div class="col-md-3 mb-3 left">
+            <label for="example-datetime-local-input" class="col-2 col-form-label">To:</label>
+              <input class="form-control" type="datetime-local" value="" id="example-datetime-local-input">
+            </div>
+        </div>
+
+  </div>
+ 
+  <button class="btn btn-primary" type="submit">Calculate Interest</button>
+</form>
+<script src="../js/payment.js"></script>
+        </div>
+        
+    </section>
+    
+</body>
+</html>
