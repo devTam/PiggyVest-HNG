@@ -20,15 +20,17 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/sidebar.css">
+      <link rel="stylesheet" href="../css/bootstrap.css">
+      <link rel="stylesheet" href="../css/safelock.css">
   </head>
-  <body>
-      <main class="main-flex">
+  <body class="container row" style="max-width: 100%">
+      <main class="main-flex col-xl-1 col-sm-2 col-md-1 col-2" style="padding: 0">
         <section class="sidebar">
             <ul class="sidebar-list">
               <nav class="sidebar-nav">
                 <span class="sidebar-toggle"></span>
               </nav>
-      
+
               <div class="sidebar-list-div">
                 <!-- ==== HOME === -->
                 <svg
@@ -44,7 +46,7 @@
                   />
                 </svg>
               </div>
-      
+
               <div class="sidebar-list-div">
                 <!-- ==== TARGET ==== -->
                 <svg
@@ -68,7 +70,7 @@
                   />
                 </svg>
               </div>
-      
+
               <div class="sidebar-list-div active">
                 <!-- ==== ROCKET ==== -->
                 <a href="payment.html">
@@ -83,9 +85,9 @@
                     />
                   </svg>
                 </a>
-              
+
               </div>
-      
+
               <div class="sidebar-list-div">
                 <!-- ==== USER ==== -->
                 <svg
@@ -101,7 +103,7 @@
                   />
                 </svg>
               </div>
-      
+
               <div class="sidebar-list-div signout">
                 <!-- ==== SIGNOUT === -->
                 <svg
@@ -123,79 +125,77 @@
               </div>
             </ul>
           </section>
-      
-          <section class="main-safelock">
-            <div class="container safelock-top">
-                <div class="row justify-content-between">
-                    <div class="col-4">
-                        <h6>Safelock</h6>
-                    </div>
-                    <div class="col-2">
-                        <div class="row justify-content-end">
-                            <img src="../images/image%201.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex justify-content-between tab-routes">
-                    <span>Piggybank</span><!--
-                 --><span class="active">Safelock</span><!--
-                 --><span>Targets</span><!--
-                 --><span>Flex Naira</span><!--
-                 --><span>Flex Dollar</span>
-                </div>
-            </div>
-            <div class="container safelock-mid-balance-sheet">
-                <div class="row">
-                    <div class="col-xl-8">
-                        <div class="balance">
-                            <div class="amount">
-                                &#8358; 0.00
-                            </div>
-                            <div class="row" style="padding: 0 14px">
-                                <div class="col-6 options">
-                                    <img src="../images/plus.png" style="width: 14px" alt=""> Create a Safelock
-                                </div>
-                                <div class="col-6 options">What is a Safelock</div>
-                            </div>
-                        </div>
-        
-                        <div class="my-safelocks">
-                            <h6>MY SAFELOCKS</h6>
-                            <div class="row justify-content-around">
-                                <div class="col-5">
-                                    <button class="btn my-safelocks active">Ongoing</button>
-                                </div>
-                                <div class="col-5">
-                                    <button class="btn my-safelocks">Completed</button>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="my-safelocks-content">
-                                <h4>Safelock</h4>
-                                <p>You have no SafeLock setup. Let’s help you get started</p>
-        
-                                <button class="btn btn-lg active">CREATE A SAFELOCK</button>
-                                <button class="btn btn-lg">WHAT IS A SAFELOCK</button>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="col-xl-4">
-                        <button class="btn interest-calculator">Interest Calculator</button>
-        
-                        <div class="interest-rate">
-                            <div>INTEREST RATE</div>
-                            <div>6% - 15.5%</div>
-                            <div>Per Annum</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-          </section>
-          
 
       </main>
-   
+
+      <main class="col-xl-11 col-sm-10 col-md-11 col-10" style="max-height: 100vh; min-height: 100vh; overflow-y: auto">
+          <section class="container safelock-top">
+              <div class="row justify-content-between">
+                  <div class="col-4">
+                      <h6>Safelock</h6>
+                  </div>
+                  <div class="col-2">
+                      <div class="row justify-content-end">
+                          <img src="../images/image%201.svg" alt="">
+                      </div>
+                  </div>
+              </div>
+              <div class="row justify-content-between tab-routes">
+                  <span>Piggybank</span><!--
+         --><span class="active">Safelock</span><!--
+         --><span>Targets</span><!--
+         --><span>Flex Naira</span><!--
+         --><span>Flex Dollar</span>
+              </div>
+          </section>
+          <section class="container safelock-mid-balance-sheet">
+              <div class="row">
+                  <div class="col-xl-8 col-md-8 col-12">
+                      <div class="balance">
+                          <div class="amount">
+                              &#8358; 0.00
+                          </div>
+                          <div class="row" style="padding: 0 14px">
+                              <div class="col-6 options">
+                                  <img src="../images/plus.png" style="width: 14px" alt=""> Create a Safelock
+                              </div>
+                              <div class="col-6 options">What is a Safelock</div>
+                          </div>
+                      </div>
+
+                      <div class="my-safelocks">
+                          <h6>MY SAFELOCKS</h6>
+                          <div class="row justify-content-around">
+                              <div class="col-5">
+                                  <button class="btn my-safelocks active">Ongoing</button>
+                              </div>
+                              <div class="col-5">
+                                  <button class="btn my-safelocks">Completed</button>
+                              </div>
+                          </div>
+                          <hr>
+                          <div class="my-safelocks-content">
+                              <h4>Safelock</h4>
+                              <p>You have no SafeLock setup. Let’s help you get started</p>
+
+                              <button class="btn btn-lg active">CREATE A SAFELOCK</button>
+                              <button class="btn btn-lg">WHAT IS A SAFELOCK</button>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-xl-4 col-md-4 col-12">
+                      <button class="btn interest-calculator">Interest Calculator</button>
+
+                      <div class="interest-rate">
+                          <div>INTEREST RATE</div>
+                          <div>6% - 15.5%</div>
+                          <div>Per Annum</div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+      </main>
+
 </body>
 </html>

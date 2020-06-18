@@ -7,8 +7,8 @@
 }
 
 .sidebar {
-    width: 112px;
-    height: 800px;
+    /*width: 112px;*/
+    height: 100vh;
     background: #062863;
     border: 1px solid #fff;
     color: #fff;
@@ -36,7 +36,7 @@
     border-radius: 2px;
     display: block;
     position: relative;
-    
+
 }
 
 .sidebar-toggle::before {
@@ -92,30 +92,19 @@
 }
 
 
-
-
-
-
-
-
-
-
-.safelock-top {
-    margin-top: -55%;
-}
+    /*SAFELOCK SECTION*/
 
 .safelock-top h6 {
     font-style: normal;
     font-weight: 500;
     font-size: 42px;
     line-height: 63px;
-    margin-left: 100px;
+
     color: #0D60D8;
 }
 .safelock-top .tab-routes {
     border-bottom: 1px solid #ccc;;
     padding: 0 24px;
-    margin-left: 50px;
 }
 .safelock-top .tab-routes span {
     padding: 8px 22px;
@@ -126,7 +115,6 @@
 }
 .safelock-mid-balance-sheet {
     margin-top: 40px;
-    margin-left: 170px;
 }
 .safelock-mid-balance-sheet .balance {
     background: #FFFFFF;
@@ -141,9 +129,9 @@
     color: #0D60D8;
 }
 .safelock-mid-balance-sheet .balance .options {
-     font-size: 16px;
-     text-align: center;
-     color: #0D60D8;
+    font-size: 16px;
+    text-align: center;
+    color: #0D60D8;
     border: 1px solid #C4C4C4;
     padding: 10px;
 }
@@ -251,6 +239,165 @@
 }
 
 
+    /*SAFELOCK END*/
+
+
+
+
+
+
+/*.safelock-top {*/
+    /*margin-top: -50%;*/
+/*}*/
+
+/*.safelock-top h6 {*/
+    /*font-style: normal;*/
+    /*font-weight: 500;*/
+    /*font-size: 42px;*/
+    /*line-height: 63px;*/
+    /*margin-left: 100px;*/
+    /*color: #0D60D8;*/
+/*}*/
+/*.safelock-top .tab-routes {*/
+    /*border-bottom: 1px solid #ccc;;*/
+    /*padding: 0 24px;*/
+    /*margin-left: 50px;*/
+/*}*/
+/*.safelock-top .tab-routes span {*/
+    /*padding: 8px 22px;*/
+    /*color: #4A5568;*/
+/*}*/
+/*.safelock-top .tab-routes span.active {*/
+    /*border-bottom: 3px solid #0D60D8;*/
+/*}*/
+/*.safelock-mid-balance-sheet {*/
+    /*margin-top: 40px;*/
+    /*margin-left: 170px;*/
+/*}*/
+/*.safelock-mid-balance-sheet .balance {*/
+    /*background: #FFFFFF;*/
+    /*border: 1px solid #C4C4C4;*/
+    /*border-radius: 5px 5px 0 0;*/
+    /*margin-bottom: 20px;*/
+/*}*/
+/*.safelock-mid-balance-sheet .balance .amount {*/
+    /*padding: 6px 20px;*/
+    /*font-size: 42px;*/
+    /*line-height: 84px;*/
+    /*color: #0D60D8;*/
+/*}*/
+/*.safelock-mid-balance-sheet .balance .options {*/
+     /*font-size: 16px;*/
+     /*text-align: center;*/
+     /*color: #0D60D8;*/
+    /*border: 1px solid #C4C4C4;*/
+    /*padding: 10px;*/
+/*}*/
+/*.safelock-mid-balance-sheet .my-safelocks {*/
+    /*background: #FFFFFF;*/
+    /*border: 1px solid #C4C4C4;*/
+    /*border-radius: 5px 5px 0 0;*/
+    /*margin-bottom: 20px;*/
+    /*padding: 9px 32px;*/
+/*}*/
+/*.safelock-mid-balance-sheet .my-safelocks h6 {*/
+    /*color: #0D60D8;*/
+    /*font-size: 16px;*/
+    /*padding: 0 4px;*/
+/*}*/
+/*.safelock-mid-balance-sheet .my-safelocks button.my-safelocks.active {*/
+    /*border-radius: 15px 15px 15px 0;*/
+    /*background-color: #0D60D8;*/
+    /*border: 1px solid #0D60D8;*/
+    /*color: white;*/
+    /*width: 100%;*/
+    /*margin-bottom: 20px;*/
+    /*padding: 4px 32px;*/
+/*}*/
+/*.safelock-mid-balance-sheet .my-safelocks button.my-safelocks:hover {*/
+    /*border-radius: 15px 15px 15px 0;*/
+    /*background-color: #0D60D8;*/
+    /*border: 1px solid #0D60D8;*/
+    /*color: white;*/
+    /*transition: ease 0.5s;*/
+/*}*/
+/*.safelock-mid-balance-sheet .my-safelocks button.my-safelocks {*/
+    /*border-radius: 15px 15px 15px 0;*/
+    /*border: 1px solid #4A5568;*/
+    /*color: black;*/
+    /*width: 100%;*/
+    /*margin-bottom: 20px;*/
+    /*padding: 4px 32px;*/
+/*}*/
+/*.safelock-mid-balance-sheet .interest-calculator {*/
+    /*border-radius: 15px 15px 15px 0;*/
+    /*background-color: #083E9E;*/
+    /*color: white;*/
+    /*width: 100%;*/
+    /*margin-bottom: 20px;*/
+    /*padding: 4px 32px;*/
+/*}*/
+/*.safelock-mid-balance-sheet .interest-rate {*/
+    /*background: #FFFFFF;*/
+    /*border: 1px solid #C4C4C4;*/
+    /*border-radius: 5px 5px 0 0;*/
+    /*padding: 6px 20px;*/
+/*}*/
+/*.safelock-mid-balance-sheet .interest-rate div:nth-child(1) {*/
+    /*font-size: 12px;*/
+    /*color: #1F2430;*/
+/*}*/
+/*.safelock-mid-balance-sheet .interest-rate div:nth-child(2) {*/
+    /*font-size: 22px;*/
+    /*color: #0D60D8;*/
+/*}*/
+/*.safelock-mid-balance-sheet .interest-rate div:nth-child(3) {*/
+    /*font-size: 10px;*/
+    /*color: #B5B5B5;*/
+/*}*/
+/*.my-safelocks .my-safelocks-content {*/
+    /*width: 65%;*/
+    /*margin: auto;*/
+/*}*/
+/*.my-safelocks .my-safelocks-content h4 {*/
+    /*color: #0D60D8;*/
+    /*font-size: 36px;*/
+    /*text-align: center;*/
+/*}*/
+/*.my-safelocks .my-safelocks-content p {*/
+    /*color: #062863;*/
+    /*font-size: 16px;*/
+    /*text-align: center;*/
+/*}*/
+/*.my-safelocks .my-safelocks-content button.active {*/
+    /*background-color: #0D60D8;*/
+    /*color: white;*/
+    /*font-size: 16px;*/
+    /*font-weight: bolder;*/
+    /*padding: 8px;*/
+    /*border-radius: 15px 15px 15px 0;*/
+    /*width: 100%;*/
+    /*margin-bottom: 24px;*/
+/*}*/
+/*.my-safelocks .my-safelocks-content button:hover {*/
+    /*background-color: #0D60D8;*/
+    /*color: white;*/
+    /*transition: ease 0.7s;*/
+/*}*/
+/*.my-safelocks .my-safelocks-content button {*/
+    /*background-color: white;*/
+    /*color: #0D60D8;*/
+    /*font-size: 16px;*/
+    /*font-weight: bolder;*/
+    /*padding: 8px;*/
+    /*border-radius: 15px 15px 15px 0;*/
+    /*border: 1px solid #0D60D8;*/
+    /*width: 100%;*/
+    /*margin-bottom: 24px;*/
+/*}*/
+
+
+
 
 
 
@@ -289,7 +436,7 @@
 .custom-select {
     font-weight: 700;
     background-color:#dfdbdb;
-    
+
 
 
 }
@@ -340,7 +487,7 @@
     .form-section {
         min-width: 90%;
     }
-    
+
 }
 
 
@@ -349,5 +496,5 @@
     .form-section {
         min-width: 90%;
     }
-    
+
 }
