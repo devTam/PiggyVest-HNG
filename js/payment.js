@@ -16,3 +16,22 @@
     });
   }, false);
 })();
+
+// LINKING THE PAYMENT PAGE TO THE INTEREST CALCULATOR BUTTON
+
+const interestBtn = document.querySelector('.interest-calculator');
+const paymentform = document.querySelector('.payment');
+const safelockMain = document.querySelector('#safelock-main');
+const paymentCloseBtn = document.querySelector('#close');
+
+
+interestBtn.addEventListener('click', () => {
+  paymentform.style.display = 'block';
+  safelockMain.classList.add('blur');
+  // paymentform.style.opacity = 1;
+});
+paymentCloseBtn.addEventListener('click', () => {
+  paymentform.style.display = 'none';
+  safelockMain.classList.remove('blur');
+  // paymentform.style.opacity = 1;
+});
