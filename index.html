@@ -8,6 +8,21 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/safelock.css">
     <title>Document</title>
+    <style>
+        ::-webkit-scrollbar {
+            width: 0;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #D3D3D3;
+            height: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #C8C8C8;
+        }
+    </style>
 </head>
 <body>
     <!DOCTYPE html>
@@ -128,7 +143,8 @@
 
       </main>
 
-      <main class="col-xl-11 col-sm-10 col-md-11 col-10" style="max-height: 100vh; min-height: 100vh; overflow-y: auto">
+      <main class="col-xl-11 col-sm-10 col-md-11 col-10 main-safelock-right"
+            style="max-height: 100vh; min-height: 100vh; overflow-y: auto">
           <section class="container safelock-top">
               <div class="row justify-content-between">
                   <div class="col-4">
@@ -148,7 +164,20 @@
          --><span>Flex Dollar</span>
               </div>
           </section>
+
           <section class="container safelock-mid-balance-sheet">
+
+              <div class="col-xl-4 col-md-4 col-12 interest-cal-mobile">
+                  <button class="btn interest-calculator">Interest Calculator</button>
+
+                  <div class="interest-rate">
+                      <div>INTEREST RATE</div>
+                      <div>6% - 15.5%</div>
+                      <div>Per Annum</div>
+                  </div>
+                  <br>
+              </div>
+
               <div class="row">
                   <div class="col-xl-8 col-md-8 col-12">
                       <div class="balance">
@@ -166,10 +195,10 @@
                       <div class="my-safelocks">
                           <h6>MY SAFELOCKS</h6>
                           <div class="row justify-content-around">
-                              <div class="col-5">
+                              <div class="col-xl-5 col-md-6 col-sm-6 col-6">
                                   <button class="btn my-safelocks active">Ongoing</button>
                               </div>
-                              <div class="col-5">
+                              <div class="col-xl-5 col-md-6 col-sm-6 col-6">
                                   <button class="btn my-safelocks">Completed</button>
                               </div>
                           </div>
@@ -184,7 +213,7 @@
                       </div>
                   </div>
 
-                  <div class="col-xl-4 col-md-4 col-12">
+                  <div class="col-xl-4 col-md-4 col-12 interest-cal">
                       <button class="btn interest-calculator">Interest Calculator</button>
 
                       <div class="interest-rate">
