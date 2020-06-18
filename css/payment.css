@@ -342,15 +342,41 @@
 @media (min-width: 481px) and (max-width: 767px) {
     .form-section {
         min-width: 90%;
+        margin-left: -85px;
+        height: 100%;
+        margin-top: 0;
+        position: fixed;
+        line-height: 3;
+        font-size: 1.2em;
     }
     
+
+    .sidebar {
+        width: 50px;
+        height: 100%;
+       
+    }
+
 }
 
 
 /*Small phones: from 371px to 480px */
 @media only screen and (max-width: 480px) {
+   
     .form-section {
         min-width: 90%;
+        margin-left: -50px;
+        height: 100%;
+        margin-top: 0;
+        position: fixed;
+        font-size: 1.2em;
     }
     
+
+    .sidebar {
+        width: 50px;
+        height: 100%;
+       
+    }
+
 }
