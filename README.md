@@ -43,4 +43,18 @@ Team of **Interns** that worked on this project
 * Lawal Dauda 
 * Eyimofe Ogunbiyi
 
-For more information on piggyvest click https://www.piggyvest.com/
+A link to our blog site https://lucid.blog/sproff/post/piggyvest-calcuator-interest-ec8
+
+### How we came about our calculator
+
+We the group of interns came together as a team and brainstormed...we understood how piggyvest works and we were able to come up with idaleas on how to go about it. 
+
+We understood there were different interest rates for different plans and so we decided to put this all into design implementing our ideas with the basic piggyvest designs.
+
+After the designs we began working on implementation of the designs and functions.
+
+We ensured the basic functions of the calculator are working in collaboration with our design.
+
+We also made the design responsive.
+
+For more information on piggyvest click here
