@@ -507,16 +507,36 @@
     .main-flex {
         display: none;
     }
+    .mobile-nav {
+        display: block;
+        box-shadow: 0 4px 4px 0 #ddd;
+    }
     .main-safelock-right {
         width: 100%;
         flex: 100%;
         max-width: 100%;
+        margin-top: 50px;
+    }
+    .safelock-top h6 {
+        font-size: 36px;
+    }
+    .safelock-mid-balance-sheet .my-safelocks button.my-safelocks {
+        font-size: 12px;
+        padding-left: 0;
+        padding-right: 2px;
+    }
+    .my-safelocks .my-safelocks-content button.active {
+        font-size: 14px;
+        margin-bottom: 20px;
     }
 }
 
 @media screen and (min-width: 501px) {
     .main-flex {
         display: block;
+    }
+    .mobile-nav {
+        display: none;
     }
     .main-safelock-right {
         width: 100%;
@@ -532,7 +552,7 @@
         display: none;
     }
 }
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 767px) {
     .interest-cal {
         display: none;
     }
