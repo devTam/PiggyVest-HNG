@@ -370,6 +370,7 @@
         margin-top: 0;
         position: fixed;
         font-size: 1.2em;
+        overflow-y: auto;
     }
     
 
