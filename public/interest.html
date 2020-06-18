@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Alert</title>
+<link rel="stylesheet" href="interest.css">
+</head>
+<body>
+<div class="container">
+<span class="close1">X</span>
+<div>
+<h2>Your interest is</h2>
+</div>
+<div class="subheading">
+<h3>(Amount here)</h3>
+</div>
+<button class = "button1" type="button" onclick="alert('LOCKED!')"> Lock </button>
+</div>
+
+
+<script>
+var closebtns = document.getElementsByClassName("close1");
+var i;
+
+for( i= 0; i < closebtns.length; i++){
+closebtns[i].addEventListener("click", function() {
+this.parentElement.style.display = 'none';});}
+</script>
+</body>
+</html>
