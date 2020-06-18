@@ -21,7 +21,7 @@ It would make it easier for first timers or even current users to weigh their op
 
 The app can be used on all options to calculate a daily, monthly and yearly basis.
 
-Team of **Interns** that worked on this project
+Team of **Interns** that worked on this project (team-**PROMPT**)
 
 * Emmanuel Idoko
 * Tammy Batubo
